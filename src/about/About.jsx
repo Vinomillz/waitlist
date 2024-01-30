@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export const About = () => {
 	// const Stickyspan = [
@@ -22,26 +23,37 @@ export const About = () => {
 		<>
 			{/* sticky b */}
 			<div className='borderx'>
+				{/* begining of first span */}
 				<span className='elementx'>
 					<span>
 						<FontAwesomeIcon icon={faHouse} className='iconsX' />
-						<a href='/Home'>Home</a>
+						<Link to='/Home'>
+							<a href='/Home'>Home</a>
+						</Link>
 					</span>
 				</span>
+				{/* second span  */}
 				<span className='elementx'>
 					<span>
 						<FontAwesomeIcon icon={faUserPlus} />
-						<a href='/waitlist'>waitlist</a>
+						<Link to='/waitlist'>
+							<a href='/waitlist'>waitlist</a>
+						</Link>
 					</span>
 				</span>
+				{/* third span */}
 				<span className='elementx'>
 					<span className='active'>
 						<span className='ienclosed'>i</span>
-						<a href='/About'>About</a>
+						<Link to='/About'>
+							<a href='/About'>About</a>
+						</Link>
 					</span>
 				</span>
+				{/* end of third span */}
 			</div>
 			{/* sticky ends */}
+
 			<h1>Teulogia</h1>
 			<h1>
 				What are we <span className='colorgrade'> About</span>
