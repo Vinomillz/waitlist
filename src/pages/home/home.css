@@ -1,0 +1,40 @@
+* {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.colorgrade {
+	color: red;
+	display: inline;
+}
+
+h1 {
+	font-size: 1px;
+}
+
+
+p {
+	font-weight: 400;
+	font-size: 1.28rem;
+	/* background-color: blue; */
+}
+
+.circleEnclosed {
+	border-style: solid;
+	border-width: 2px;
+	padding: 5px;
+	border-radius: 45%;
+}
+
+.phoneImages {
+	width: 19rem;
+	height: 35rem;
+	/* background-color: red; */
+}
+
+.btn {
+	background-color: black;
+	color: white;
+	width: 10rem;
+	padding: 15px;
+	margin: 2px;
+}

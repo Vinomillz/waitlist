@@ -1,0 +1,36 @@
+.borderx {
+	border-style: solid;
+	position: sticky;
+	top: 0;
+	padding: 0.8rem;
+	border-radius: 12px;
+	border-width: 1.5px;
+	justify-content: space-between;
+	display: flex;
+	background-color: rgb(250, 242, 242);
+}
+
+.elementx {
+	/* margin: 20px; */
+	cursor: pointer;
+}
+
+.active {
+	background-color: black;
+	color: white;
+	/* font-style: italic; */
+	padding: 8px;
+	border-radius: 5px;
+}
+
+.iconsX {
+	font-size: small;
+}
+.ienclosed {
+	border-style: solid;
+	padding: 3px;
+	font-weight:900 ;
+	border-width: 1px;
+	height: 1px;
+	margin: 5px;
+}

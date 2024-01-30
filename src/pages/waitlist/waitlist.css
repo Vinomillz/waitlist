@@ -1,0 +1,33 @@
+.inputz{
+    
+	
+	width: 20rem;
+	padding: 15px;
+	margin: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 2em;
+}
+
+.lightText{
+
+    margin-top: 10em;
+    color: black;
+    font-size: medium;
+}
+#marginz{
+    margin: 1em;
+}
+
+.btnz{
+    width: 20rem;
+	padding: 15px;
+	margin: 2em;
+    background-color: black;
+    color: white;
+}
+
+.el{
+    color: red;
+}
