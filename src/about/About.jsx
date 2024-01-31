@@ -27,27 +27,21 @@ export const About = () => {
 				<span className='elementx'>
 					<span>
 						<FontAwesomeIcon icon={faHouse} className='iconsX' />
-						<Link to='/Home'>
-							<a href='/Home'>Home</a>
-						</Link>
+						<Link to='/Home'>Home</Link>
 					</span>
 				</span>
 				{/* second span  */}
 				<span className='elementx'>
 					<span>
 						<FontAwesomeIcon icon={faUserPlus} />
-						<Link to='/waitlist'>
-							<a href='/waitlist'>waitlist</a>
-						</Link>
+						<Link to='/waitlist'>waitlist</Link>
 					</span>
 				</span>
 				{/* third span */}
 				<span className='elementx'>
 					<span className='active'>
 						<span className='ienclosed'>i</span>
-						<Link to='/About'>
-							<a href='/About'>About</a>
-						</Link>
+						<Link to='/About'>About</Link>
 					</span>
 				</span>
 				{/* end of third span */}

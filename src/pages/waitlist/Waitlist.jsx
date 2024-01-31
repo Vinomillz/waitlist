@@ -18,7 +18,7 @@ export const Waitlist = () => {
 			strings: ["Take", " Insight", " Board"],
 			typeSpeed: 50,
 			backSpeed: 50,
-			loop: true
+			loop: true,
 		});
 
 		return () => {
@@ -35,27 +35,21 @@ export const Waitlist = () => {
 				<span className='elementx'>
 					<span>
 						<FontAwesomeIcon icon={faHouse} className='iconsX' />
-						<Link to='/Home'>
-							<a href='/Home'>Home</a>
-						</Link>
+						<Link to='/Home'>Home</Link>
 					</span>
 				</span>
 				{/* second span  */}
 				<span className='elementx'>
 					<span className='active'>
 						<FontAwesomeIcon icon={faUserPlus} />
-						<Link to='/waitlist'>
-							<a href='/waitlist'>waitlist</a>
-						</Link>
+						<Link to='/waitlist'>waitlist</Link>
 					</span>
 				</span>
 				{/* third span */}
 				<span className='elementx'>
 					<span>
 						<span className='ienclosed'>i</span>
-						<Link to='/About'>
-							<a href='/About'>About</a>
-						</Link>
+						<Link to='/About'>About</Link>
 					</span>
 				</span>
 				{/* end of third span */}
@@ -64,7 +58,7 @@ export const Waitlist = () => {
 			<h1>Teulogia</h1>
 
 			<h2>
-				Join the waitlist for Teulogia: <span className='el' ref={el} />
+				Join the waitlist for <br /> Teulogia: <span className='el' ref={el} />
 			</h2>
 			<span>
 				<FontAwesomeIcon icon={faUser} />

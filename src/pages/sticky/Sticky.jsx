@@ -17,7 +17,7 @@ export const Sticky = () => {
 				<span onClick={changeActive} className='active'>
 					<FontAwesomeIcon icon={faHouse} className='iconsX' />
 					<Link to='/Home'>
-						<a href='/Home'>Home</a>
+					Home
 					</Link>
 				</span>
 			</span>
@@ -26,7 +26,7 @@ export const Sticky = () => {
 				<span onClick={changeActive}>
 					<FontAwesomeIcon icon={faUserPlus} />
 					<Link to='/waitlist'>
-						<a href='/waitlist'>waitlist</a>
+						waitlist
 					</Link>
 				</span>
 			</span>
@@ -35,7 +35,7 @@ export const Sticky = () => {
 				<span onClick={changeActive}>
 					<span className='ienclosed'>i</span>
 					<Link to='/About'>
-						<a href='/About'>About</a>
+						About
 					</Link>
 				</span>
 			</span>
